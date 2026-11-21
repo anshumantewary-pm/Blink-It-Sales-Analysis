@@ -29,6 +29,7 @@ File: [`BlinkIT Grocery Data.xlsx`](BlinkIT%20Grocery%20Data.xlsx), sheet `Blink
 
 - `Item Fat Content` uses inconsistent labels: `Low Fat`, `LF` and `low fat` mean the same thing, as do `Regular` and `reg`. These need to be standardised before grouping.
 - `Item Weight` is blank in 1,463 rows.
+- `Item Visibility` is exactly 0 in 526 rows, which is unlikely for an item that actually sold.
 
 ## Approach
 
